@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/**/
+#area-principal{
+    margin: 0;
+    padding: 0;
+}
+/**/
+#area-cabecalho{
+    background-color: #262318;
+    padding: 90px;
+}
+
+#area-logo{
+    position: absolute;
+    top: 40px;
+    left: 160px;
+}
+
+#area-menu{
+    position: relative;
+    top: -25px;
+    left: 500px;
+    vertical-align: super;
+}
+
+#imagem-principal{
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+#imagem-secundaria{
+    position: absolute;
+    top: 0px;
+    left: 740px;
+}
+
+#formulario{
+    padding: 25px;
+    height: 65px;
+    background-color: #CDC8B1;
+    text-align: left;
+    top: 340px;
+    left: 20px;
+    right: 20px;
+    width: 300px;
+}
+
+#resposta-formulario{
+    display: flex;
+}
+
+#botao-enviar{
+    float: right;
+    position: relative;
+    margin-right: 55px;
+    margin-top: 10px
+}
+
+#fundo-botao-enviar{
+    background-color: #9B9271;
+    padding: 5px;
+}
+
+#imagem-terciaria{
+    position: absolute;
+    top: 325px;
+    left: 370px;
+}
+
+#mapa{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#area-lateral{
+    position: relative;
+    background-color: #EBE7DD;
+    background-size: 50px;
+    left: 30px;
+    top: 15px;
+}
+
+#area-lateral2{
+    position: relative;
+    left: 180px;
+    top: -121px;
+}
+#area-lateral3{
+    position: relative;
+    background-color: #EBE7DD;
+    background-size: 50px;
+    left: 30px;
+    top: -105px;
+}
+#area-lateral4{
+    position: relative;
+    left: 180px;
+    top: -241px;
+}
+
+#imagem-lateral{
+    position: absolute;
+    background-color: #EBE7DD;
+    left: 46px;
+    top: 520px;
+}
+#imagem-lateral2{
+    position: absolute;
+    left: 196px;
+    top: 520px;
+}
+#imagem-lateral3{
+    position: absolute;
+    background-color: #EBE7DD;
+    left: 46px;
+    top: 673px;
+}
+#imagem-lateral4{
+    position: absolute;
+    left: 196px;
+    top: 673px;
+}
+
+.video{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fbf2f2;
+}
+
+#area-final{
+    padding-top: 10px;
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    vertical-align: center;
+}
+
+#area-menu-final{
+    padding: 10px;
+    position: absolute;
+    word-spacing: 15px;
+    top: 50px;
+    vertical-align: center;
+}
+
+#rodape{
+    position: relative;
+    word-spacing: 5px;
+    text-align: 90px;
+    left: 45px;
+    top: 15px;
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #f5f2f2;
+    padding: 8px 12px;
+}
+
+/* Formatações em geral */
+h1{
+    color: #844C00;
+    font-size: 16px;
+    padding: 15px;
+}
+
+h2{
+    color: #844C00;
+    font-size: 16px;
+}
+
+h3{
+    color: #006B24;
+    padding: 20px;
+    margin: 5px, 5px;
+}
+/* tendo problemas com o alinhamento do texto*/
+h4{
+    color: #B77A3B;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+h5{
+    color: #252523;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+/* tendo problemas com o alinhamento do texto*/
+.branco{
+    color: #fbf2f2;
+}
+
+.data-postagem{
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
